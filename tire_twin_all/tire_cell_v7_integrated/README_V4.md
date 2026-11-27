@@ -1,4 +1,6 @@
-# 타이어 교체 셀 v4
+# (이력) 타이어 교체 셀 v4
+
+> 참고용 이력 문서입니다. v4 기능(너트 트레이 보관)은 `tire_cell_v7_integrated/` 에 합쳐졌고, `tire_cell_v4_nut_drop/` 폴더는 이 저장소에 없습니다. 실행은 이 폴더의 `README.md` 를 따르세요.
 
 원본 `tire_cell_v3/`를 그대로 두고, 풀린 너트를 트레이에 보관하는 새 버전입니다.
 
@@ -8,14 +10,14 @@
 원본 체결 시각은 유지되며, 모든 너트를 풀면 기존 고정 관절을 해제해 휠 탈거로 이어집니다.
 
 ```bash
-cd /home/rokey/Downloads/tire_twin_all/tire_cell_v4_nut_drop
+cd tire_twin_all/tire_cell_v7_integrated
 bash run.sh
 ```
 
 씬을 다시 만들려면:
 
 ```bash
-python3 build_scene_v3.py /home/rokey/Downloads/tire_twin_all/tire_cell_v4_nut_drop
+python3 build_scene_v3.py .
 ```
 
 ## 주의
