@@ -1,0 +1,134 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    kilogramsPerUnit = 1
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def PhysicsScene "PhysicsScene" (
+        prepend apiSchemas = ["PhysxSceneAPI"]
+    )
+    {
+        vector3f physics:gravityDirection = (0, 0, -1)
+        float physics:gravityMagnitude = 9.81
+        custom uint physxScene:timeStepsPerSecond = 240
+    }
+
+    def "Looks"
+    {
+        def Material "floor"
+        {
+            token outputs:surface.connect = </World/Looks/floor/shader.outputs:surface>
+
+            def Shader "shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.4, 0.42, 0.44)
+                float inputs:metallic = 0
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+
+        def Material "stand"
+        {
+            token outputs:surface.connect = </World/Looks/stand/shader.outputs:surface>
+
+            def Shader "shader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (0.85, 0.5, 0.05)
+                float inputs:metallic = 0.3
+                float inputs:roughness = 0.5
+                token outputs:surface
+            }
+        }
+    }
+
+    def Cube "GroundPlane" (
+        prepend apiSchemas = ["MaterialBindingAPI", "PhysicsCollisionAPI"]
+    )
+    {
+        rel material:binding = </World/Looks/floor>
+        color3f[] primvars:displayColor = [(0.4, 0.42, 0.44)]
+        double size = 1
+        float3 xformOp:scale = (14, 12, 0.1)
+        double3 xformOp:translate = (0, 0, -0.05)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+
+    def DomeLight "DomeLight"
+    {
+        float inputs:intensity = 900
+    }
+
+    def DistantLight "SunLight"
+    {
+        float inputs:intensity = 2000
+        float3 xformOp:rotateXYZ = (40, 20, 0)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+    }
+
+    def Xform "grandeur_gn7" (
+        prepend references = @./grandeur_gn7.usda@
+    )
+    {
+        double3 xformOp:translate = (0, 0, 0.45)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def "Stands_grandeur_gn7"
+    {
+        def Cube "stand_0" (
+            prepend apiSchemas = ["MaterialBindingAPI", "PhysicsCollisionAPI"]
+        )
+        {
+            rel material:binding = </World/Looks/stand>
+            color3f[] primvars:displayColor = [(0.85, 0.5, 0.05)]
+            double size = 1
+            float3 xformOp:scale = (0.26, 0.26, 0.565)
+            double3 xformOp:translate = (0.66, -1.028, 0.28250000000000003)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "stand_1" (
+            prepend apiSchemas = ["MaterialBindingAPI", "PhysicsCollisionAPI"]
+        )
+        {
+            rel material:binding = </World/Looks/stand>
+            color3f[] primvars:displayColor = [(0.85, 0.5, 0.05)]
+            double size = 1
+            float3 xformOp:scale = (0.26, 0.26, 0.565)
+            double3 xformOp:translate = (0.66, 1.028, 0.28250000000000003)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "stand_2" (
+            prepend apiSchemas = ["MaterialBindingAPI", "PhysicsCollisionAPI"]
+        )
+        {
+            rel material:binding = </World/Looks/stand>
+            color3f[] primvars:displayColor = [(0.85, 0.5, 0.05)]
+            double size = 1
+            float3 xformOp:scale = (0.26, 0.26, 0.565)
+            double3 xformOp:translate = (-0.66, -1.028, 0.28250000000000003)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+
+        def Cube "stand_3" (
+            prepend apiSchemas = ["MaterialBindingAPI", "PhysicsCollisionAPI"]
+        )
+        {
+            rel material:binding = </World/Looks/stand>
+            color3f[] primvars:displayColor = [(0.85, 0.5, 0.05)]
+            double size = 1
+            float3 xformOp:scale = (0.26, 0.26, 0.565)
+            double3 xformOp:translate = (-0.66, 1.028, 0.28250000000000003)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+        }
+    }
+}
+

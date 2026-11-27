@@ -1,0 +1,4 @@
+prius_body.usda, Hybrid.png, Hybrid_Interior.png
+Converted from: https://github.com/osrf/car_demo  (prius_description/meshes/hybrid_body.obj and textures)
+License: Apache License 2.0 (as declared in prius_description/package.xml)
+Changes: OBJ converted to USD, units scaled from cm to m. Wheels are not included (separate parametric model).

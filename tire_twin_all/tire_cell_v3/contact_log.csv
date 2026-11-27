@@ -1,0 +1,40 @@
+class,peak_force_N,steps,first_time_s,phase,collider0,collider1
+TOOL-BODY (scratch risk),0.0,241,57.18,gripper,/World/Car/colliders/Hybrid_102,/World/RobotA/WheelGripper/jaw_1/carriage
+gripper pad-tire (expected),642.8,5047,59.06,gripper,/World/RobotA/WheelGripper/jaw_3/pad,/World/Wheel_FL/colliders/tire_15
+gripper pad-tire (expected),470.3,5047,59.06,gripper,/World/RobotA/WheelGripper/jaw_2/pad,/World/Wheel_FL/colliders/tire_9
+gripper pad-tire (expected),444.3,5033,59.11,gripper,/World/RobotA/WheelGripper/jaw_2/pad,/World/Wheel_FL/colliders/tire_10
+gripper pad-tire (expected),443.6,5043,59.07,gripper,/World/RobotA/WheelGripper/jaw_3/pad,/World/Wheel_FL/colliders/tire_14
+gripper pad-tire (expected),419.4,196,79.90,gripper,/World/RobotA/WheelGripper/jaw_1/lip_inner,/World/Wheel_FL/colliders/tire_2
+gripper pad-tire (expected),406.8,3315,66.08,gripper,/World/RobotA/WheelGripper/jaw_0/lip_outer,/World/Wheel_FL/colliders/tire_21
+gripper pad-tire (expected),360.6,5037,59.10,gripper,/World/RobotA/WheelGripper/jaw_1/pad,/World/Wheel_FL/colliders/tire_2
+gripper pad-tire (expected),360.4,5050,59.05,gripper,/World/RobotA/WheelGripper/jaw_1/pad,/World/Wheel_FL/colliders/tire_3
+gripper pad-tire (expected),358.8,5031,59.10,gripper,/World/RobotA/WheelGripper/jaw_0/pad,/World/Wheel_FL/colliders/tire_20
+gripper pad-tire (expected),353.5,3315,66.08,gripper,/World/RobotA/WheelGripper/jaw_3/lip_outer,/World/Wheel_FL/colliders/tire_15
+gripper pad-tire (expected),335.7,5031,59.10,gripper,/World/RobotA/WheelGripper/jaw_0/pad,/World/Wheel_FL/colliders/tire_22
+gripper pad-tire (expected),325.2,199,79.90,gripper,/World/RobotA/WheelGripper/jaw_1/lip_inner,/World/Wheel_FL/colliders/tire_3
+gripper pad-tire (expected),325.1,5041,59.06,gripper,/World/RobotA/WheelGripper/jaw_0/pad,/World/Wheel_FL/colliders/tire_21
+gripper pad-tire (expected),324.4,206,79.90,gripper,/World/RobotA/WheelGripper/jaw_2/lip_inner,/World/Wheel_FL/colliders/tire_10
+gripper pad-tire (expected),308.1,194,79.90,gripper,/World/RobotA/WheelGripper/jaw_3/lip_inner,/World/Wheel_FL/colliders/tire_15
+gripper pad-tire (expected),305.0,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_1/lip_outer,/World/Wheel_FL/colliders/tire_2
+gripper pad-tire (expected),300.5,3315,66.08,gripper,/World/RobotA/WheelGripper/jaw_1/lip_outer,/World/Wheel_FL/colliders/tire_3
+gripper pad-tire (expected),299.8,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_0/lip_outer,/World/Wheel_FL/colliders/tire_20
+gripper pad-tire (expected),292.9,5043,59.07,gripper,/World/RobotA/WheelGripper/jaw_3/pad,/World/Wheel_FL/colliders/tire_16
+gripper pad-tire (expected),288.9,186,79.90,gripper,/World/RobotA/WheelGripper/jaw_0/lip_inner,/World/Wheel_FL/colliders/tire_20
+gripper pad-tire (expected),278.8,3315,66.08,gripper,/World/RobotA/WheelGripper/jaw_2/lip_outer,/World/Wheel_FL/colliders/tire_9
+gripper pad-tire (expected),253.7,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_3/lip_outer,/World/Wheel_FL/colliders/tire_16
+gripper pad-tire (expected),244.1,191,79.90,gripper,/World/RobotA/WheelGripper/jaw_3/lip_inner,/World/Wheel_FL/colliders/tire_14
+gripper pad-tire (expected),239.1,5043,59.07,gripper,/World/RobotA/WheelGripper/jaw_2/pad,/World/Wheel_FL/colliders/tire_8
+gripper pad-tire (expected),208.7,188,79.90,gripper,/World/RobotA/WheelGripper/jaw_0/lip_inner,/World/Wheel_FL/colliders/tire_21
+gripper pad-tire (expected),204.1,209,79.90,gripper,/World/RobotA/WheelGripper/jaw_2/lip_inner,/World/Wheel_FL/colliders/tire_9
+gripper pad-tire (expected),185.3,5037,59.10,gripper,/World/RobotA/WheelGripper/jaw_1/pad,/World/Wheel_FL/colliders/tire_4
+gripper pad-tire (expected),181.2,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_3/lip_outer,/World/Wheel_FL/colliders/tire_14
+gripper pad-tire (expected),172.4,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_2/lip_outer,/World/Wheel_FL/colliders/tire_10
+gripper pad-tire (expected),147.9,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_0/lip_outer,/World/Wheel_FL/colliders/tire_22
+gripper pad-tire (expected),110.2,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_1/lip_outer,/World/Wheel_FL/colliders/tire_4
+gripper pad-tire (expected),92.7,191,79.90,gripper,/World/RobotA/WheelGripper/jaw_3/lip_inner,/World/Wheel_FL/colliders/tire_16
+gripper pad-tire (expected),70.9,3310,66.09,gripper,/World/RobotA/WheelGripper/jaw_2/lip_outer,/World/Wheel_FL/colliders/tire_8
+gripper pad-tire (expected),61.3,205,79.90,gripper,/World/RobotA/WheelGripper/jaw_2/lip_inner,/World/Wheel_FL/colliders/tire_8
+gripper pad-tire (expected),23.6,196,79.90,gripper,/World/RobotA/WheelGripper/jaw_1/lip_inner,/World/Wheel_FL/colliders/tire_4
+gripper pad-tire (expected),23.4,186,79.90,gripper,/World/RobotA/WheelGripper/jaw_0/lip_inner,/World/Wheel_FL/colliders/tire_22
+car_body_max_displacement_mm,0.609,,,,,
+car_body_max_tilt_deg,0.0000,,,,,

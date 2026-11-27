@@ -1,0 +1,20 @@
+class,peak_force_N,steps,first_time_s,phase,collider0,collider1
+TOOL-BODY (scratch risk),12632.1,1,186.81,A-remove / [RL 2/4 remove] A retreat and go home,/World/Car/colliders/Hybrid_127,/World/RobotA/WheelGripper/jaw_3/lip_inner
+gripper pad-tire (expected),880.8,5107,155.40,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_0/pad,/World/Wheel_RL/colliders/tire_21
+gripper pad-tire (expected),875.2,5093,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_3/pad,/World/Wheel_RL/colliders/tire_14
+gripper pad-tire (expected),867.9,5095,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_2/pad,/World/Wheel_RL/colliders/tire_8
+gripper pad-tire (expected),813.8,5111,155.40,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_1/pad,/World/Wheel_RL/colliders/tire_3
+gripper pad-tire (expected),476.2,5098,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_2/pad,/World/Wheel_RL/colliders/tire_9
+gripper pad-tire (expected),452.3,182,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_3/lip_inner,/World/Wheel_RL/colliders/tire_14
+gripper pad-tire (expected),374.1,253,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_1/lip_inner,/World/Wheel_RL/colliders/tire_3
+gripper pad-tire (expected),352.3,251,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_1/lip_inner,/World/Wheel_RL/colliders/tire_2
+gripper pad-tire (expected),318.8,202,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_0/lip_inner,/World/Wheel_RL/colliders/tire_20
+gripper pad-tire (expected),309.9,5099,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_1/pad,/World/Wheel_RL/colliders/tire_2
+gripper pad-tire (expected),295.7,187,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_2/lip_inner,/World/Wheel_RL/colliders/tire_9
+gripper pad-tire (expected),274.6,5094,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_0/pad,/World/Wheel_RL/colliders/tire_20
+gripper pad-tire (expected),250.6,5095,155.45,A-remove / [RL 2/4 remove] A close 4 jaws on the tread,/World/RobotA/WheelGripper/jaw_3/pad,/World/Wheel_RL/colliders/tire_15
+gripper pad-tire (expected),103.9,186,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_2/lip_inner,/World/Wheel_RL/colliders/tire_8
+gripper pad-tire (expected),68.3,204,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_0/lip_inner,/World/Wheel_RL/colliders/tire_21
+gripper pad-tire (expected),20.3,183,176.50,A-remove / [RL 2/4 remove] A lower to floor + release,/World/RobotA/WheelGripper/jaw_3/lip_inner,/World/Wheel_RL/colliders/tire_15
+car_body_max_displacement_mm,0.002,,,,,
+car_body_max_tilt_deg,0.0000,,,,,

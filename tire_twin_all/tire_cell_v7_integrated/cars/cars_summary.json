@@ -1,0 +1,526 @@
+{
+ "avante_cn7": {
+  "key": "avante_cn7",
+  "label": "현대 아반떼 CN7 (준중형) 가솔린 1.6, 17인치",
+  "curb_mass": 1270.0,
+  "sprung_mass": 1095.4,
+  "unsprung_total": 174.6,
+  "com": [
+   0.0,
+   -0.299,
+   0.54
+  ],
+  "inertia": [
+   1944,
+   430,
+   2050
+  ],
+  "body_collision_plates": 900,
+  "jack_points": [
+   [
+    0.632,
+    -0.94
+   ],
+   [
+    0.632,
+    0.94
+   ],
+   [
+    -0.632,
+    -0.94
+   ],
+   [
+    -0.632,
+    0.94
+   ]
+  ],
+  "jack_bottom_z": 0.11,
+  "droop": 0.09,
+  "corners": {
+   "FL": {
+    "tire": "225/45R17",
+    "tire_radius": 0.3171,
+    "wheel_mass": 20.0,
+    "hub_disc_mass": 13.03,
+    "disc_mass": 8.03,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 280.0,
+    "center": [
+     0.7895,
+     -1.36,
+     0.2151
+    ],
+    "wheel_rate_N_per_m": 27821,
+    "corner_sprung_load_kg": 340.3
+   },
+   "FR": {
+    "tire": "225/45R17",
+    "tire_radius": 0.3171,
+    "wheel_mass": 20.0,
+    "hub_disc_mass": 13.03,
+    "disc_mass": 8.03,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 280.0,
+    "center": [
+     -0.7895,
+     -1.36,
+     0.2151
+    ],
+    "wheel_rate_N_per_m": 27821,
+    "corner_sprung_load_kg": 340.3
+   },
+   "RL": {
+    "tire": "225/45R17",
+    "tire_radius": 0.3171,
+    "wheel_mass": 20.0,
+    "hub_disc_mass": 8.76,
+    "disc_mass": 5.26,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 262.0,
+    "center": [
+     0.795,
+     1.36,
+     0.2151
+    ],
+    "wheel_rate_N_per_m": 16954,
+    "corner_sprung_load_kg": 207.4
+   },
+   "RR": {
+    "tire": "225/45R17",
+    "tire_radius": 0.3171,
+    "wheel_mass": 20.0,
+    "hub_disc_mass": 8.76,
+    "disc_mass": 5.26,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 262.0,
+    "center": [
+     -0.795,
+     1.36,
+     0.2151
+    ],
+    "wheel_rate_N_per_m": 16954,
+    "corner_sprung_load_kg": 207.4
+   }
+  },
+  "nut": {
+   "count": 5,
+   "thread": "M12x1.5",
+   "torque_Nm": [
+    107,
+    127
+   ],
+   "clamp_force_per_nut_N": [
+    44583,
+    52917
+   ]
+  },
+  "sources": {
+   "official": "전장/전폭/전고/축거/윤거(17인치)/타이어 225/45R17/휠 7.0Jx17/너트 토크 = 현대 CN7 취급설명서 2026 (ownersmanual.hyundai.com/full_pdf/CN7/2026/ko_KR)",
+   "third": "공차중량 1,270 kg (가솔린 1.6 17인치, 제원 정리 사이트가 옮긴 값. 현대 가격표로 재확인 필요), 디스크 지름 앞 280 / 뒤 262 mm (북미 제원 사이트 11.0 / 10.3 in)",
+   "assumed": "앞뒤 무게 배분 61:39, 최저지상고 140 mm, 오버행 배분, 휠 오프셋 ET50, 디스크 두께, 휠+타이어 20 kg"
+  },
+  "tire_to_body_min_gap_mm": {
+   "FL_droop": 39,
+   "FL_bump": 10,
+   "FR_droop": 39,
+   "FR_bump": 10,
+   "RL_droop": 39,
+   "RL_bump": 10,
+   "RR_droop": 39,
+   "RR_bump": 10
+  }
+ },
+ "k5_dl3": {
+  "key": "k5_dl3",
+  "label": "기아 K5 DL3 (중형) 2.0 가솔린, 18인치",
+  "curb_mass": 1455.0,
+  "sprung_mass": 1263.1,
+  "unsprung_total": 191.9,
+  "com": [
+   0.0,
+   -0.285,
+   0.549
+  ],
+  "inertia": [
+   2422,
+   514,
+   2549
+  ],
+  "body_collision_plates": 1048,
+  "jack_points": [
+   [
+    0.65,
+    -1.005
+   ],
+   [
+    0.65,
+    1.005
+   ],
+   [
+    -0.65,
+    -1.005
+   ],
+   [
+    -0.65,
+    1.005
+   ]
+  ],
+  "jack_bottom_z": 0.105,
+  "droop": 0.09,
+  "corners": {
+   "FL": {
+    "tire": "235/45R18",
+    "tire_radius": 0.3343,
+    "wheel_mass": 23.0,
+    "hub_disc_mass": 15.01,
+    "disc_mass": 10.01,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 305.0,
+    "center": [
+     0.809,
+     -1.425,
+     0.2323
+    ],
+    "wheel_rate_N_per_m": 31432,
+    "corner_sprung_load_kg": 384.5
+   },
+   "FR": {
+    "tire": "235/45R18",
+    "tire_radius": 0.3343,
+    "wheel_mass": 23.0,
+    "hub_disc_mass": 15.01,
+    "disc_mass": 10.01,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 305.0,
+    "center": [
+     -0.809,
+     -1.425,
+     0.2323
+    ],
+    "wheel_rate_N_per_m": 31432,
+    "corner_sprung_load_kg": 384.5
+   },
+   "RL": {
+    "tire": "235/45R18",
+    "tire_radius": 0.3343,
+    "wheel_mass": 23.0,
+    "hub_disc_mass": 9.44,
+    "disc_mass": 5.94,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 284.0,
+    "center": [
+     0.8125,
+     1.425,
+     0.2323
+    ],
+    "wheel_rate_N_per_m": 20197,
+    "corner_sprung_load_kg": 247.1
+   },
+   "RR": {
+    "tire": "235/45R18",
+    "tire_radius": 0.3343,
+    "wheel_mass": 23.0,
+    "hub_disc_mass": 9.44,
+    "disc_mass": 5.94,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 284.0,
+    "center": [
+     -0.8125,
+     1.425,
+     0.2323
+    ],
+    "wheel_rate_N_per_m": 20197,
+    "corner_sprung_load_kg": 247.1
+   }
+  },
+  "nut": {
+   "count": 5,
+   "thread": "M12x1.5",
+   "torque_Nm": [
+    107,
+    127
+   ],
+   "clamp_force_per_nut_N": [
+    44583,
+    52917
+   ]
+  },
+  "sources": {
+   "official": "전장/전폭/전고/축거/윤거(18인치)/공차중량 1,455 kg(2.0 가솔린 18인치)/타이어 235/45R18 = 기아 K5 제원 (kia.com/kr/vehicles/k5/specification.html). 휠 7.5Jx18, 너트 토크 = 기아 DL3 취급설명서. 디스크 앞 12.0 in 벤틸레이티드 / 뒤 11.2 in 솔리드, 무게 배분 60:40, 최저지상고 5.3 in = 기아 북미 공식 제원 (kiamedia.com, 2025 K5)",
+   "third": "휠 오프셋 ET48",
+   "assumed": "디스크 두께, 오버행 배분, 휠+타이어 23 kg"
+  },
+  "tire_to_body_min_gap_mm": {
+   "FL_droop": 34,
+   "FL_bump": 10,
+   "FR_droop": 34,
+   "FR_bump": 10,
+   "RL_droop": 34,
+   "RL_bump": 10,
+   "RR_droop": 34,
+   "RR_bump": 10
+  }
+ },
+ "grandeur_gn7": {
+  "key": "grandeur_gn7",
+  "label": "현대 그랜저 GN7 (준대형) 가솔린 2.5, 18인치",
+  "curb_mass": 1600.0,
+  "sprung_mass": 1394.9,
+  "unsprung_total": 205.1,
+  "com": [
+   0.0,
+   -0.289,
+   0.555
+  ],
+  "inertia": [
+   2811,
+   580,
+   2955
+  ],
+  "body_collision_plates": 1056,
+  "jack_points": [
+   [
+    0.66,
+    -1.028
+   ],
+   [
+    0.66,
+    1.028
+   ],
+   [
+    -0.66,
+    -1.028
+   ],
+   [
+    -0.66,
+    1.028
+   ]
+  ],
+  "jack_bottom_z": 0.115,
+  "droop": 0.09,
+  "corners": {
+   "FL": {
+    "tire": "225/55R18",
+    "tire_radius": 0.3523,
+    "wheel_mass": 24.5,
+    "hub_disc_mass": 18.06,
+    "disc_mass": 13.06,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 325.0,
+    "center": [
+     0.814,
+     -1.4475,
+     0.2503
+    ],
+    "wheel_rate_N_per_m": 34616,
+    "corner_sprung_load_kg": 423.4
+   },
+   "FR": {
+    "tire": "225/55R18",
+    "tire_radius": 0.3523,
+    "wheel_mass": 24.5,
+    "hub_disc_mass": 18.06,
+    "disc_mass": 13.06,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 325.0,
+    "center": [
+     -0.814,
+     -1.4475,
+     0.2503
+    ],
+    "wheel_rate_N_per_m": 34616,
+    "corner_sprung_load_kg": 423.4
+   },
+   "RL": {
+    "tire": "225/55R18",
+    "tire_radius": 0.3523,
+    "wheel_mass": 24.5,
+    "hub_disc_mass": 9.97,
+    "disc_mass": 6.47,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 300.0,
+    "center": [
+     0.8175,
+     1.4475,
+     0.2503
+    ],
+    "wheel_rate_N_per_m": 22402,
+    "corner_sprung_load_kg": 274.0
+   },
+   "RR": {
+    "tire": "225/55R18",
+    "tire_radius": 0.3523,
+    "wheel_mass": 24.5,
+    "hub_disc_mass": 9.97,
+    "disc_mass": 6.47,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 300.0,
+    "center": [
+     -0.8175,
+     1.4475,
+     0.2503
+    ],
+    "wheel_rate_N_per_m": 22402,
+    "corner_sprung_load_kg": 274.0
+   }
+  },
+  "nut": {
+   "count": 5,
+   "thread": "M12x1.5",
+   "torque_Nm": [
+    107,
+    127
+   ],
+   "clamp_force_per_nut_N": [
+    44583,
+    52917
+   ]
+  },
+  "sources": {
+   "official": "전장/전폭/전고/축거/윤거(18인치)/타이어 225/55R18/휠 7.5Jx18/너트 토크 = 현대 GN7 취급설명서 2026 (ownersmanual.hyundai.com/full_pdf/GN7/2026/ko_KR). 공차중량 1,600 kg (가솔린 2.5 2WD 18인치) = 현대 그랜저 제원표 PDF (hyundai.com, 27년형. 이전 연식은 1,590~1,620 kg 로 표기)",
+   "third": "",
+   "assumed": "디스크 지름·두께(앞 325 / 뒤 300 mm, 공식 자료 미확인), 무게 배분 60:40, 최저지상고, 오버행 배분, 휠 오프셋 ET50, 휠+타이어 24.5 kg"
+  },
+  "tire_to_body_min_gap_mm": {
+   "FL_droop": 34,
+   "FL_bump": 74,
+   "FR_droop": 34,
+   "FR_bump": 74,
+   "RL_droop": 34,
+   "RL_bump": 101,
+   "RR_droop": 34,
+   "RR_bump": 101
+  }
+ },
+ "k9_rj": {
+  "key": "k9_rj",
+  "label": "기아 K9 RJ (대형) 3.8 가솔린 2WD, 19인치",
+  "curb_mass": 1940.0,
+  "sprung_mass": 1706.4,
+  "unsprung_total": 233.6,
+  "com": [
+   0.0,
+   -0.062,
+   0.566
+  ],
+  "inertia": [
+   3584,
+   737,
+   3765
+  ],
+  "body_collision_plates": 1066,
+  "jack_points": [
+   [
+    0.677,
+    -1.133
+   ],
+   [
+    0.677,
+    1.133
+   ],
+   [
+    -0.677,
+    -1.133
+   ],
+   [
+    -0.677,
+    1.133
+   ]
+  ],
+  "jack_bottom_z": 0.12,
+  "droop": 0.09,
+  "corners": {
+   "FL": {
+    "tire": "245/45R19",
+    "tire_radius": 0.3515,
+    "wheel_mass": 27.0,
+    "hub_disc_mass": 19.49,
+    "disc_mass": 15.99,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 360.0,
+    "center": [
+     0.8195,
+     -1.5525,
+     0.2495
+    ],
+    "wheel_rate_N_per_m": 36289,
+    "corner_sprung_load_kg": 443.9
+   },
+   "FR": {
+    "tire": "245/45R19",
+    "tire_radius": 0.3515,
+    "wheel_mass": 27.0,
+    "hub_disc_mass": 19.49,
+    "disc_mass": 15.99,
+    "knuckle_mass": 14.0,
+    "disc_d_mm": 360.0,
+    "center": [
+     -0.8195,
+     -1.5525,
+     0.2495
+    ],
+    "wheel_rate_N_per_m": 36289,
+    "corner_sprung_load_kg": 443.9
+   },
+   "RL": {
+    "tire": "275/40R19",
+    "tire_radius": 0.3513,
+    "wheel_mass": 29.5,
+    "hub_disc_mass": 15.33,
+    "disc_mass": 10.33,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 340.0,
+    "center": [
+     0.8195,
+     1.5525,
+     0.2495
+    ],
+    "wheel_rate_N_per_m": 33458,
+    "corner_sprung_load_kg": 409.3
+   },
+   "RR": {
+    "tire": "275/40R19",
+    "tire_radius": 0.3513,
+    "wheel_mass": 29.5,
+    "hub_disc_mass": 15.33,
+    "disc_mass": 10.33,
+    "knuckle_mass": 11.5,
+    "disc_d_mm": 340.0,
+    "center": [
+     -0.8195,
+     1.5525,
+     0.2495
+    ],
+    "wheel_rate_N_per_m": 33458,
+    "corner_sprung_load_kg": 409.3
+   }
+  },
+  "nut": {
+   "count": 5,
+   "thread": "M12x1.5",
+   "torque_Nm": [
+    107,
+    127
+   ],
+   "clamp_force_per_nut_N": [
+    44583,
+    52917
+   ]
+  },
+  "sources": {
+   "official": "전장/전폭/전고/축거/윤거(19인치)/공차중량 1,940 kg(3.8 2WD 19인치)/타이어 앞 245/45R19·뒤 275/40R19/앞뒤 벤틸레이티드 디스크 = 기아 K9 제원 (kia.com/kr/vehicles/k9/specification.html). 디스크 앞 14.2 in / 뒤 13.4 in = 기아 북미 공식 제원 (kiamedia.com, 2020 K900 = K9 RJ 수출명)",
+   "third": "휠 8.5Jx19 ET32 / 9.5Jx19 ET47",
+   "assumed": "너트 토크 11~13 kgf·m 는 기아 승용 취급설명서 공통값을 적용한 것 (K9 취급설명서에서 직접 확인하지 못함). 무게 배분 52:48, 최저지상고, 오버행 배분, 디스크 두께, 휠+타이어 질량"
+  },
+  "tire_to_body_min_gap_mm": {
+   "FL_droop": 35,
+   "FL_bump": 68,
+   "FR_droop": 35,
+   "FR_bump": 68,
+   "RL_droop": 36,
+   "RL_bump": 10,
+   "RR_droop": 36,
+   "RR_bump": 10
+  }
+ }
+}

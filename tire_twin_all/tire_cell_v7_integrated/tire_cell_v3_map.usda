@@ -1,0 +1,19 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @./tire_cell_v3.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    def Xform "Map" (
+        prepend references = @./garage_map.usda@
+    )
+    {
+    }
+}
+

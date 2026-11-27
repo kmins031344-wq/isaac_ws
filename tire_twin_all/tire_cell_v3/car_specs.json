@@ -1,0 +1,87 @@
+{
+  "_note": "source 표기: official = 제조사 공식 자료(취급설명서/제원표/공식 보도자료), third = 제조사가 아닌 자료, assumed = 가정, derived = 계산. assumed/third 값은 실차 자료 확보 후 교체.",
+  "_common": {
+    "lug_count": 5,
+    "pcd_mm": 114.3,
+    "thread": "M12x1.5",
+    "nut_hex_mm": 21,
+    "hub_bore_mm": 67.1,
+    "stud_exposed_mm": 45,
+    "nut_torque_kgfm": [11, 13],
+    "nut_torque_Nm": [107, 127],
+    "nut_factor_K": 0.2,
+    "_source": "체결 토크 11~13 kgf·m (107~127 N·m) = official (현대 CN7·GN7 취급설명서, 기아 DL3 취급설명서). 너트 5개 = official(취급설명서 그림). PCD 114.3 / M12x1.5 / 보어 67.1 / 21 mm 소켓 = third (취급설명서에는 없음, 휠 규격 자료 공통값). 스터드 돌출 45 mm, 너트 계수 K 0.2 = assumed"
+  },
+  "avante_cn7": {
+    "label": "현대 아반떼 CN7 (준중형) 가솔린 1.6, 17인치",
+    "class": "준중형",
+    "length": 4.710, "width": 1.825, "height": 1.420, "wheelbase": 2.720,
+    "track_front": 1.579, "track_rear": 1.590,
+    "curb_mass": 1270.0,
+    "front_weight_fraction": 0.61,
+    "ground_clearance": 0.140,
+    "front_overhang_fraction": 0.45,
+    "drive": "FWD",
+    "front": {"tire": [225, 45, 17], "rim_width_in": 7.0, "offset_mm": 50, "disc_d_mm": 280, "disc_t_mm": 23, "vented": true, "wheel_mass": 20.0},
+    "rear":  {"tire": [225, 45, 17], "rim_width_in": 7.0, "offset_mm": 50, "disc_d_mm": 262, "disc_t_mm": 10, "vented": false, "wheel_mass": 20.0},
+    "_source": {
+      "official": "전장/전폭/전고/축거/윤거(17인치)/타이어 225/45R17/휠 7.0Jx17/너트 토크 = 현대 CN7 취급설명서 2026 (ownersmanual.hyundai.com/full_pdf/CN7/2026/ko_KR)",
+      "third": "공차중량 1,270 kg (가솔린 1.6 17인치, 제원 정리 사이트가 옮긴 값. 현대 가격표로 재확인 필요), 디스크 지름 앞 280 / 뒤 262 mm (북미 제원 사이트 11.0 / 10.3 in)",
+      "assumed": "앞뒤 무게 배분 61:39, 최저지상고 140 mm, 오버행 배분, 휠 오프셋 ET50, 디스크 두께, 휠+타이어 20 kg"
+    }
+  },
+  "k5_dl3": {
+    "label": "기아 K5 DL3 (중형) 2.0 가솔린, 18인치",
+    "class": "중형",
+    "length": 4.905, "width": 1.860, "height": 1.445, "wheelbase": 2.850,
+    "track_front": 1.618, "track_rear": 1.625,
+    "curb_mass": 1455.0,
+    "front_weight_fraction": 0.60,
+    "ground_clearance": 0.135,
+    "front_overhang_fraction": 0.45,
+    "drive": "FWD",
+    "front": {"tire": [235, 45, 18], "rim_width_in": 7.5, "offset_mm": 48, "disc_d_mm": 305, "disc_t_mm": 25, "vented": true, "wheel_mass": 23.0},
+    "rear":  {"tire": [235, 45, 18], "rim_width_in": 7.5, "offset_mm": 48, "disc_d_mm": 284, "disc_t_mm": 10, "vented": false, "wheel_mass": 23.0},
+    "_source": {
+      "official": "전장/전폭/전고/축거/윤거(18인치)/공차중량 1,455 kg(2.0 가솔린 18인치)/타이어 235/45R18 = 기아 K5 제원 (kia.com/kr/vehicles/k5/specification.html). 휠 7.5Jx18, 너트 토크 = 기아 DL3 취급설명서. 디스크 앞 12.0 in 벤틸레이티드 / 뒤 11.2 in 솔리드, 무게 배분 60:40, 최저지상고 5.3 in = 기아 북미 공식 제원 (kiamedia.com, 2025 K5)",
+      "third": "휠 오프셋 ET48",
+      "assumed": "디스크 두께, 오버행 배분, 휠+타이어 23 kg"
+    }
+  },
+  "grandeur_gn7": {
+    "label": "현대 그랜저 GN7 (준대형) 가솔린 2.5, 18인치",
+    "class": "준대형",
+    "length": 5.035, "width": 1.880, "height": 1.460, "wheelbase": 2.895,
+    "track_front": 1.628, "track_rear": 1.635,
+    "curb_mass": 1600.0,
+    "front_weight_fraction": 0.60,
+    "ground_clearance": 0.145,
+    "front_overhang_fraction": 0.44,
+    "drive": "FWD",
+    "front": {"tire": [225, 55, 18], "rim_width_in": 7.5, "offset_mm": 50, "disc_d_mm": 325, "disc_t_mm": 30, "vented": true, "wheel_mass": 24.5},
+    "rear":  {"tire": [225, 55, 18], "rim_width_in": 7.5, "offset_mm": 50, "disc_d_mm": 300, "disc_t_mm": 10, "vented": false, "wheel_mass": 24.5},
+    "_source": {
+      "official": "전장/전폭/전고/축거/윤거(18인치)/타이어 225/55R18/휠 7.5Jx18/너트 토크 = 현대 GN7 취급설명서 2026 (ownersmanual.hyundai.com/full_pdf/GN7/2026/ko_KR). 공차중량 1,600 kg (가솔린 2.5 2WD 18인치) = 현대 그랜저 제원표 PDF (hyundai.com, 27년형. 이전 연식은 1,590~1,620 kg 로 표기)",
+      "third": "",
+      "assumed": "디스크 지름·두께(앞 325 / 뒤 300 mm, 공식 자료 미확인), 무게 배분 60:40, 최저지상고, 오버행 배분, 휠 오프셋 ET50, 휠+타이어 24.5 kg"
+    }
+  },
+  "k9_rj": {
+    "label": "기아 K9 RJ (대형) 3.8 가솔린 2WD, 19인치",
+    "class": "대형",
+    "length": 5.140, "width": 1.915, "height": 1.490, "wheelbase": 3.105,
+    "track_front": 1.639, "track_rear": 1.639,
+    "curb_mass": 1940.0,
+    "front_weight_fraction": 0.52,
+    "ground_clearance": 0.150,
+    "front_overhang_fraction": 0.42,
+    "drive": "RWD",
+    "front": {"tire": [245, 45, 19], "rim_width_in": 8.5, "offset_mm": 32, "disc_d_mm": 360, "disc_t_mm": 30, "vented": true, "wheel_mass": 27.0},
+    "rear":  {"tire": [275, 40, 19], "rim_width_in": 9.5, "offset_mm": 47, "disc_d_mm": 340, "disc_t_mm": 20, "vented": true, "wheel_mass": 29.5},
+    "_source": {
+      "official": "전장/전폭/전고/축거/윤거(19인치)/공차중량 1,940 kg(3.8 2WD 19인치)/타이어 앞 245/45R19·뒤 275/40R19/앞뒤 벤틸레이티드 디스크 = 기아 K9 제원 (kia.com/kr/vehicles/k9/specification.html). 디스크 앞 14.2 in / 뒤 13.4 in = 기아 북미 공식 제원 (kiamedia.com, 2020 K900 = K9 RJ 수출명)",
+      "third": "휠 8.5Jx19 ET32 / 9.5Jx19 ET47",
+      "assumed": "너트 토크 11~13 kgf·m 는 기아 승용 취급설명서 공통값을 적용한 것 (K9 취급설명서에서 직접 확인하지 못함). 무게 배분 52:48, 최저지상고, 오버행 배분, 디스크 두께, 휠+타이어 질량"
+    }
+  }
+}
