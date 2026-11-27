@@ -49,7 +49,7 @@ ISAACSIM_PATH=/경로/isaacsim bash run.sh
 ```bash
 cd tire_twin_all/tire_cell_v7_integrated
 bash run.sh                    # 전체: 비전 → 분해 → 재조립 → 트랙으로 뒷바퀴 위치 이동, 카메라 토픽 포함
-bash run.sh --no-ros           # 카메라 토픽 없이 (더 빠름, 실행 확인된 조합)
+bash run.sh --no-ros           # 카메라 토픽 없이 (더 빠름)
 bash run.sh --no-reassembly    # 휠을 바닥에 놓고 끝 (재조립 생략)
 bash run.sh --no-track-move    # 마지막 트랙 이동 생략
 bash run.sh --no-vision        # 비전 없이 물리 자세로 너트 좌표 사용
