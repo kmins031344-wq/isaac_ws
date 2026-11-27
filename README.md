@@ -8,7 +8,7 @@ NVIDIA Isaac Sim 5.1 에서 Kawasaki RS080N 로봇 2대가 리프트 위 차량�
 
 - OS: Ubuntu 24.04
 - 시뮬레이터: Isaac Sim 5.1 (`~/isaacsim` 기본 경로, 다른 경로면 `ISAACSIM_PATH` 지정)
-- GPU: NVIDIA RTX
+- GPU: NVIDIA RTX 5080
 - ROS 2: Jazzy (카메라 토픽 확인용. Isaac Sim 내장 브리지를 쓰므로 시연 실행 자체에는 필요 없음)
 - 로봇: Kawasaki RS080N × 2 (4조 휠 그리퍼 / Atlas Copco QST62-230CT 너트러너), 손목 카메라 Intel RealSense D455 × 2
 
