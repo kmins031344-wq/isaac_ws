@@ -41,6 +41,10 @@
 3. 장착면 점에 평면을 맞춰 허브 축을 구함
 4. 휠 자세 4×4 → 너트 5개 위치 계산. 두 로봇 모두 이 값으로 경로를 계획 (보고 나서 움직이기)
 
+검출 결과 예 (`tire_twin_all/tire_cell_v7_integrated/vision_debug.png`, 초록 십자 = 너트와 번호, 파란 점·화살표 = 허브 중심과 축, 빨강 = 걸러낸 스포크):
+
+![비전 검출 결과](../tire_twin_all/tire_cell_v7_integrated/vision_debug.png)
+
 너트 3개 미만 검출, 잔차 RMS 2 mm 초과, 배치도에서 8 cm 초과, 축 기울기 5° 초과면 `FALLBACK` 으로 물리 자세를 사용합니다.
 측정 결과: 차 위치를 몇 cm 옮기거나 휠을 ±20° 돌려도 너트 오차 최대 0.3 mm 이하.
 

@@ -42,8 +42,8 @@ isaac_ws/
 
 | 항목 | 상태 |
 |---|---|
-| `tire_cell_v7_integrated` | `--no-ros` 전체 사이클 Isaac Sim 실행 확인. 최종 휠 자세 오차 0.6 mm / 0.01°, 사이클 322 s(시뮬레이션 시간), 보호 정지 없음 |
-| ROS 토픽 켠 전체 사이클 | 미확인 |
+| `tire_cell_v7_integrated` | 전체 사이클 Isaac Sim 실행 확인 (`bash run.sh`, ROS 토픽 포함). `--no-ros` 측정값: 최종 휠 자세 오차 0.6 mm / 0.01°, 사이클 322 s(시뮬레이션 시간), 보호 정지 없음 |
+| 비전 너트 검출 | 검출 결과 영상(`vision_debug.png`) 확인 |
 | `tire_demo_v2` | 실행 확인 |
 | 차량 4종, 트레이, 맵, `view.sh` | Isaac Sim 실행 검증 전 |
 

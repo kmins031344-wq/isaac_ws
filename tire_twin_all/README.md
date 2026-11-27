@@ -49,7 +49,7 @@ Isaac Sim 이 `~/isaacsim` 이 아닌 곳에 있으면 앞에 `ISAACSIM_PATH=/�
 
 ## 확인 상태
 
-- `tire_cell_v7_integrated`: `--no-ros` 전체 사이클 Isaac Sim 실행 확인 (최종 휠 자세 오차 0.6 mm / 0.01°, 322 s). ROS 토픽을 켠 전체 사이클은 미확인.
+- `tire_cell_v7_integrated`: 전체 사이클 Isaac Sim 실행 확인 (`bash run.sh`, ROS 토픽 포함). 비전 검출 영상 확인. `--no-ros` 측정값: 최종 휠 자세 오차 0.6 mm / 0.01°, 322 s.
 - `tire_demo_v2`: Isaac Sim 에서 실행 확인됨.
 - `tire_cell_v3`: 토크 제한·보호 정지를 넣은 본은 실행 결과를 확인하지 못함.
 - 차량 4종, 트레이, 맵, `view.sh`: Isaac Sim 실행 검증 전.
