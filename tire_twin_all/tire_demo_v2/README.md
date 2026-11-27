@@ -5,8 +5,7 @@ RS080N 로봇이 리프트 위 차량의 앞바퀴(너트 없음)를 4조 그리
 ## 실행
 
 ```bash
-unzip tire_demo.zip
-cd tire_demo
+cd tire_twin_all/tire_demo_v2      # 저장소 최상위 기준
 bash run.sh
 ```
 
